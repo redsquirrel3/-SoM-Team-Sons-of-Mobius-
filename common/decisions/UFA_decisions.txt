@@ -2331,6 +2331,25 @@ UFA_Issue_Campaigns = {
 	}
 }
 
+UFA_Test = {
+	UFA_break_UFA = {
+		allowed = {
+			tag = UFA
+		}
+
+		complete_effect = {
+			UFA_Create_SPG = yes
+			UFA_Create_APO = yes
+			UFA_Create_CHU = yes
+			UFA_Create_MAZ = yes
+			UFA_Create_SHA = yes
+			UFA_Create_SOE = yes
+		}
+
+		cost = 0
+	}
+}
+
 #UFA_Scandals = {
 #	UFA_Local_Election_Fraud = {
 #		activation = {
